@@ -1,43 +1,165 @@
 ManifestFileVersion: 0
-CRC: 3924552972
+CRC: 725380936
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: ui/res/1fangk.png.ab
-      Dependencies: {}
+      Name: ui/prafabs/testui.prefab.ab
+      Dependencies:
+        Dependency_0: ui/res/ui_feature_bg.png.ab
+        Dependency_1: ui/res/ui_feature_bg1.png.ab
     Info_1:
-      Name: ui/res/2heart.png.ab
+      Name: ui/res/arrow.png.ab
       Dependencies: {}
     Info_2:
-      Name: ui/res/3heitao.png.ab
+      Name: ui/res/bg.jpg.ab
       Dependencies: {}
     Info_3:
-      Name: ui/res/4meihua.png.ab
+      Name: ui/res/btn_+5.png.ab
       Dependencies: {}
     Info_4:
-      Name: ui/res/eyes.png.ab
+      Name: ui/res/btn_close.png.ab
       Dependencies: {}
     Info_5:
-      Name: ui/res/freegame.png.ab
+      Name: ui/res/btn_common.png.ab
       Dependencies: {}
     Info_6:
-      Name: ui/res/gem.png.ab
+      Name: ui/res/ice1.png.ab
       Dependencies: {}
     Info_7:
-      Name: ui/res/helmet.png.ab
+      Name: ui/res/ice2.png.ab
       Dependencies: {}
     Info_8:
-      Name: ui/res/high1.png.ab
+      Name: ui/res/ice3.png.ab
       Dependencies: {}
     Info_9:
-      Name: ui/res/high2.png.ab
+      Name: ui/res/icon.png.ab
       Dependencies: {}
     Info_10:
-      Name: ui/res/high3.png.ab
+      Name: ui/res/icon_bg.png.ab
       Dependencies: {}
     Info_11:
-      Name: ui/res/medasu.png.ab
+      Name: ui/res/jackpot.png.ab
       Dependencies: {}
     Info_12:
-      Name: ui/res/wild.png.ab
+      Name: ui/res/major.png.ab
+      Dependencies: {}
+    Info_13:
+      Name: ui/res/major1.png.ab
+      Dependencies: {}
+    Info_14:
+      Name: ui/res/major_progressbar.png.ab
+      Dependencies: {}
+    Info_15:
+      Name: ui/res/major_progressbg.png.ab
+      Dependencies: {}
+    Info_16:
+      Name: ui/res/mega.png.ab
+      Dependencies: {}
+    Info_17:
+      Name: ui/res/mega1.png.ab
+      Dependencies: {}
+    Info_18:
+      Name: ui/res/mega_bar.png.ab
+      Dependencies: {}
+    Info_19:
+      Name: ui/res/mega_progressbg.png.ab
+      Dependencies: {}
+    Info_20:
+      Name: ui/res/minor.png.ab
+      Dependencies: {}
+    Info_21:
+      Name: ui/res/minor1.png.ab
+      Dependencies: {}
+    Info_22:
+      Name: ui/res/minor_progressbar.png.ab
+      Dependencies: {}
+    Info_23:
+      Name: ui/res/minor_progressbg.png.ab
+      Dependencies: {}
+    Info_24:
+      Name: ui/res/progress_bg.png.ab
+      Dependencies: {}
+    Info_25:
+      Name: ui/res/progress_blue.png.ab
+      Dependencies: {}
+    Info_26:
+      Name: ui/res/reward_bg.png.ab
+      Dependencies: {}
+    Info_27:
+      Name: ui/res/spinagain.png.ab
+      Dependencies: {}
+    Info_28:
+      Name: ui/res/ui_feature_bg.png.ab
+      Dependencies: {}
+    Info_29:
+      Name: ui/res/ui_feature_bg1.png.ab
+      Dependencies: {}
+    Info_30:
+      Name: ui/res/ui_start.png.ab
+      Dependencies: {}
+    Info_31:
+      Name: ui/res/upgrade.png.ab
+      Dependencies: {}
+    Info_32:
+      Name: ui/res/wheelbg1.png.ab
+      Dependencies: {}
+    Info_33:
+      Name: ui/res/wheelicon_purple.png.ab
+      Dependencies: {}
+    Info_34:
+      Name: ui/res/wheelicon_red.png.ab
+      Dependencies: {}
+    Info_35:
+      Name: ui/res/wheelicon_yellow.png.ab
+      Dependencies: {}
+    Info_36:
+      Name: ui/res/wheel_purple.png.ab
+      Dependencies: {}
+    Info_37:
+      Name: ui/res/wheel_red.png.ab
+      Dependencies: {}
+    Info_38:
+      Name: ui/res/wheel_yellow.png.ab
+      Dependencies: {}
+    Info_39:
+      Name: ui/res/you_won.png.ab
+      Dependencies: {}
+    Info_40:
+      Name: ui/res/icon/1fangk.png.ab
+      Dependencies: {}
+    Info_41:
+      Name: ui/res/icon/2heart.png.ab
+      Dependencies: {}
+    Info_42:
+      Name: ui/res/icon/3heitao.png.ab
+      Dependencies: {}
+    Info_43:
+      Name: ui/res/icon/4meihua.png.ab
+      Dependencies: {}
+    Info_44:
+      Name: ui/res/icon/eyes.png.ab
+      Dependencies: {}
+    Info_45:
+      Name: ui/res/icon/freegame.png.ab
+      Dependencies: {}
+    Info_46:
+      Name: ui/res/icon/gem.png.ab
+      Dependencies: {}
+    Info_47:
+      Name: ui/res/icon/helmet.png.ab
+      Dependencies: {}
+    Info_48:
+      Name: ui/res/icon/high1.png.ab
+      Dependencies: {}
+    Info_49:
+      Name: ui/res/icon/high2.png.ab
+      Dependencies: {}
+    Info_50:
+      Name: ui/res/icon/high3.png.ab
+      Dependencies: {}
+    Info_51:
+      Name: ui/res/icon/medasu.png.ab
+      Dependencies: {}
+    Info_52:
+      Name: ui/res/icon/wild.png.ab
       Dependencies: {}
