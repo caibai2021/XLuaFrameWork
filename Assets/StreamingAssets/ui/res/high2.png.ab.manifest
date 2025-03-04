@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 894092448
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6f96bde006783e969522fc3767b056cb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/UI/Res/high2.png
+Dependencies: []
