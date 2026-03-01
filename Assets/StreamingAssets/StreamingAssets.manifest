@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 725380936
+CRC: 1877141012
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,6 +7,7 @@ AssetBundleManifest:
       Dependencies:
         Dependency_0: ui/res/ui_feature_bg.png.ab
         Dependency_1: ui/res/ui_feature_bg1.png.ab
+        Dependency_2: ui/res/icon/gem.png.ab
     Info_1:
       Name: ui/res/arrow.png.ab
       Dependencies: {}
@@ -162,4 +163,31 @@ AssetBundleManifest:
       Dependencies: {}
     Info_52:
       Name: ui/res/icon/wild.png.ab
+      Dependencies: {}
+    Info_53:
+      Name: ui/res/ttt/11000000.png.ab
+      Dependencies: {}
+    Info_54:
+      Name: ui/res/ttt/11000096.png.ab
+      Dependencies: {}
+    Info_55:
+      Name: ui/res/ttt/11000263.png.ab
+      Dependencies: {}
+    Info_56:
+      Name: ui/res/ttt/11000265.png.ab
+      Dependencies: {}
+    Info_57:
+      Name: ui/res/ttt/11000313.png.ab
+      Dependencies: {}
+    Info_58:
+      Name: ui/res/ttt/11000315.png.ab
+      Dependencies: {}
+    Info_59:
+      Name: ui/res/ttt/11000336.png.ab
+      Dependencies: {}
+    Info_60:
+      Name: ui/res/ttt/11000337.png.ab
+      Dependencies: {}
+    Info_61:
+      Name: ui/res/ttt/11001142.png.ab
       Dependencies: {}

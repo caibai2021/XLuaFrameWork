@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3652753483
+CRC: 311284100
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c658a335a6d77f25cfc8f13bb5261e7e
+    Hash: 4008a8fdaa29cfe3e42cbed8c9d5f978
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e860c064b66fd479644aad36a7ada4dd
+    Hash: 764d089c331876b31fffd177e228c2bf
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4008a8fdaa29cfe3e42cbed8c9d5f978
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -18,11 +21,13 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cabb1ee84f11f874a849aa38eedabb6d, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -53,5 +58,6 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/BuildResources/UI/Prafabs/TestUI.prefab
 Dependencies:
-- D:/Programing/Projects/UnityProject/XLuaFrameWork/Assets/StreamingAssets/ui/res/ui_feature_bg.png.ab
-- D:/Programing/Projects/UnityProject/XLuaFrameWork/Assets/StreamingAssets/ui/res/ui_feature_bg1.png.ab
+- D:/WorkSpace/UnityProject/Unity_Demo/Demos/XLuaFrameWork/Assets/StreamingAssets/ui/res/icon/gem.png.ab
+- D:/WorkSpace/UnityProject/Unity_Demo/Demos/XLuaFrameWork/Assets/StreamingAssets/ui/res/ui_feature_bg.png.ab
+- D:/WorkSpace/UnityProject/Unity_Demo/Demos/XLuaFrameWork/Assets/StreamingAssets/ui/res/ui_feature_bg1.png.ab

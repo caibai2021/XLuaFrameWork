@@ -19,6 +19,8 @@ public static class PathUtil
         get { return Application.streamingAssetsPath; }
     }
 
+
+    // 获取 unity 的相对路径
     public static string GetUnityPath(string path)
     {
         if (string.IsNullOrEmpty(path))
@@ -29,6 +31,11 @@ public static class PathUtil
         return path.Substring(path.IndexOf("Assets"));
     }
 
+    /// <summary>
+    /// 获取标准路径，// 和  \\ 的区别
+    /// </summary>
+    /// <param name="path"></param>
+    /// <returns></returns>
     public static string GetStandardPath(string path)
     {
         if (string.IsNullOrEmpty(path)) { return string.Empty; }

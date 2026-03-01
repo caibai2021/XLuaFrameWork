@@ -1,30 +1,35 @@
-using PlasticGui.WorkspaceWindow.PendingChanges;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Mime;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class BuildTool : Editor
 {
+    
+    
+    
+    [MenuItem("Tools/Build Windows Bundle")]   // 多平台构建  target
 
-    [MenuItem("Tools/Build Windows Bundle")]
     static void BundleWindowsBuild()
     {
-        Build(BuildTarget.StandaloneWindows);
+        Build(BuildTarget.StandaloneWindows);  // windows构建
     }
 
     [MenuItem("Tools/Build Android Bundle")]
     static void BundleWindowsAndroidBuild()
     {
-        Build(BuildTarget.Android);
+        Build(BuildTarget.Android); // 安卓 包  构建
     }
 
     [MenuItem("Tools/Build iOS Bundle")]
     static void BundleiOSBuild()
     {
-        Build(BuildTarget.iOS);
+        Build(BuildTarget.iOS);  //   ios  构建
     }
 
 
@@ -35,16 +40,20 @@ public class BuildTool : Editor
         // 文件信息列表
         List<string> bundleInfos = new List<string>();
 
-        string[] files = Directory.GetFiles(PathUtil.BuildResourcesPath, "*", SearchOption.AllDirectories);
+        string[] files = Directory.GetFiles(PathUtil.BuildResourcesPath, "*", SearchOption.AllDirectories); // 递归查找所有子目录文件夹
+
+        //  需要排除meta文件
 
         for (int i = 0; i < files.Length; i++)
         {
-            if (files[i].EndsWith(".mata"))
+            if (files[i].EndsWith(".meta"))
             {
-                continue;
+                continue;  // 排除meta
+                //Debug.LogWarning("meta排除");
             }
 
-            AssetBundleBuild assetBundle = new AssetBundleBuild();
+
+            AssetBundleBuild assetBundle = new AssetBundleBuild(); // unity相对目录
 
             string fileName = PathUtil.GetStandardPath(files[i]);
             Debug.Log("file: " + fileName);
@@ -76,7 +85,8 @@ public class BuildTool : Editor
         Directory.CreateDirectory(PathUtil.BundleOutPath);
 
         BuildPipeline.BuildAssetBundles(PathUtil.BundleOutPath, assetBundleBuilds.ToArray(), BuildAssetBundleOptions.None, target);
-    
+        
+        // 将依赖文件信息保存
         File.WriteAllLines(PathUtil.BundleOutPath + "/" + AppConst.FileListName, bundleInfos);
         AssetDatabase.Refresh();
 
